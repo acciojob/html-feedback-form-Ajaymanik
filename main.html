@@ -7,7 +7,8 @@
 </head>
 
 <body>
- <form method="post">
+    <h2>Feedback Form</h2>
+	<form method="post">
 	 <label for="name">Name :</label>
 	 <input type="text" id="name" name="name" minlength ="3" maxlength="50" required><br>
 
@@ -18,14 +19,14 @@
 	 
         <!-- Favorite Color -->
         <label for="favColor">Favorite Color:</label>
-        <input type="color" id="favColor" name="favColor"><br>
+        <input type="color" id="favColor" name="favColor" required><br>
 
 	  <!-- Likeness -->
         <label for="likeness">Likeness:</label>
-        <input type="range" id="likeness" name="likeness" min="1"  max="100"><br>
+        <input type="range" id="likeness" name="likeness" min="1"  max="100" required><br>
 
     <!-- Submit Button -->
-        <button type="submit">Submit Button</button>
+        <button type="submit">Submit</button>
  </form>
 	<script type="text/javascript" src="./script.js">
 </script>
